@@ -1,0 +1,16 @@
+[package]
+name = "Blockchain-based-proof-of-ownership"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xf791693dd8aef285dca1ce9e02bf6bb900e6623986099a2d3365f5cf3df9cdd9"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
